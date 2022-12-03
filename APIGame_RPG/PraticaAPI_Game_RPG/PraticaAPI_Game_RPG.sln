@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PraticaAPI_Game_RPG", "PraticaAPI_Game_RPG\PraticaAPI_Game_RPG.csproj", "{C610DDDF-E83E-41EC-B502-B0108776C515}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C610DDDF-E83E-41EC-B502-B0108776C515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C610DDDF-E83E-41EC-B502-B0108776C515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C610DDDF-E83E-41EC-B502-B0108776C515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C610DDDF-E83E-41EC-B502-B0108776C515}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {938B063B-7CBC-4745-A543-D4A78C068B28}
+	EndGlobalSection
+EndGlobal
