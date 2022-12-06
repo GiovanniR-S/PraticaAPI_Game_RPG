@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PraticaAPI_Game_RPG", "PraticaAPI_Game_RPG\PraticaAPI_Game_RPG.csproj", "{C610DDDF-E83E-41EC-B502-B0108776C515}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PraticaAPI_Game_RPG", "PraticaAPI_Game_RPG\PraticaAPI_Game_RPG.csproj", "{C610DDDF-E83E-41EC-B502-B0108776C515}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{C07B9570-6AF5-4FDA-944E-D2D3F21148DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{1A51406F-C0D0-48AF-AB2F-BE493BA9A79A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{B6DCCE51-5B83-4608-A1FC-AFDC3DF29968}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{3CF50269-780E-4E5A-A57C-47277BB3517B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - IoC", "4 - IoC", "{A16EE177-96D9-42C1-97D9-E9261B615C15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C610DDDF-E83E-41EC-B502-B0108776C515} = {C07B9570-6AF5-4FDA-944E-D2D3F21148DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {938B063B-7CBC-4745-A543-D4A78C068B28}
